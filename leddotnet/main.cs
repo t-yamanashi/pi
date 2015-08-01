@@ -13,11 +13,8 @@ public class Program
 		{
 			Loop();
 		}
-
-		
 	}
 
-	
 	private static void Init()
 	{	
 		led = new Led();
