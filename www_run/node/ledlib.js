@@ -27,7 +27,6 @@ function led(port, flg){
 }
 
 exports.ledAll = function(data){
-//function ledAll(data){
         var i;
 	var flg = 0;
 	for (i = 0; i  < 4; i++){
@@ -37,4 +36,3 @@ exports.ledAll = function(data){
 }
 
 initLedAll();
-//ledAll(0xF);
