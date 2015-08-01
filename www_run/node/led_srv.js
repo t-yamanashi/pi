@@ -7,11 +7,9 @@ function listenFn(){
 	print("listen");
 }
 
-function connectionFn(socket)
-{
+function connectionFn(socket){
 	socket.on("message", messageFn)
-	function messageFn(data)
-	{
+	function messageFn(data){
 		print(data.toString(2));
 		io.ledAll(data);
 	}
