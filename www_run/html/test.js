@@ -8,7 +8,7 @@ main();
 
 function main(){
 	window.addEventListener("deviceorientation", deviceorientation, false);
-view("test");
+	view("test");
 }
 
 function deviceorientation(e){
