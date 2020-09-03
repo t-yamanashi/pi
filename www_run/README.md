@@ -1,5 +1,4 @@
 ## 走るWebサーバ ##
-######　[動画　https://youtu.be/hfkWTcYvPFE](https://youtu.be/hfkWTcYvPFE)　######
 ---
 #### ファイル構成 ####
 * html :　クライアントソース  
